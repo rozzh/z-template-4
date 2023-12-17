@@ -76,6 +76,10 @@
   margin-top: 20px;
 }
 
+.mb-10 {
+  margin-bottom: 10px;
+}
+
 .mb-20 {
   margin-bottom: 20px;
 }
@@ -123,6 +127,10 @@
   font-size: 14px;
 }
 
+.fs-15 {
+  font-size: 15px;
+}
+
 @media (max-width: 767px) {
   .txt-c-mobile {
     text-align: center;
@@ -136,6 +144,10 @@
 
 .rad-10 {
   border-radius: 10px;
+}
+
+.b-none{
+  border: none;
 }
 /* End Border */
 /* Start Width + Height */
@@ -152,6 +164,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.btn-shape {
+  padding: 4px 10px;
+  border-radius: 6px;
 }
 /* End Components */
 
