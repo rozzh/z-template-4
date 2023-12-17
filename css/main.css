@@ -360,3 +360,17 @@ ul {
   background-color: rgba(34, 197, 94, .2);
 }
 /* End widget 3 - Yearly Targets */
+
+/* Start widget 4 - Tickets Statistics */
+.tickets .box {
+  border: 1px solid #ccc;
+  /* 10px ? because of the gap 20 */
+  width: calc(50% - 10px);
+}
+
+@media (max-width: 767px) {
+  .tickets .box {
+    width: 100%;
+  }
+}
+/* End widget 4 - Tickets Statistics */
