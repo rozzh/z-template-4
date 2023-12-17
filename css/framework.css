@@ -97,6 +97,14 @@
   background-color: var(--blue-color, #0075ff);
 }
 
+.bg-orange {
+  background-color: var(--orange-color, #f59e0b);
+}
+
+.bg-green {
+  background-color: var(--green-color, #22c55e);
+}
+
 .c-white {
   color: #fff;
 }
@@ -107,6 +115,18 @@
 
 .c-grey {
   color: var(--grey-color, #888);
+}
+
+.c-blue {
+  color: var(--blue-color, #0075ff);
+}
+
+.c-orange {
+  color: var(--orange-color, #f59e0b);
+}
+
+.c-green {
+  color: var(--green-color, #22c55e);
 }
 /* End Color */
 /* Start Position */
@@ -129,6 +149,10 @@
 
 .fs-15 {
   font-size: 15px;
+}
+
+.fw-bold {
+  font-weight: bold;
 }
 
 @media (max-width: 767px) {
@@ -160,6 +184,12 @@
 }
 /* End Width + Height */
 /* Start Components */
+.center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .between-flex {
   display: flex;
   align-items: center;
