@@ -215,6 +215,59 @@ ul {
   }
 }
 /* end Wrapper */
-
-
 /* End Content */
+
+/* Start widget 1 - welcome */
+.welcome {
+  overflow: hidden;
+}
+
+.welcome .intro img {
+  max-width: 100%;
+  width: 200px;
+  margin-bottom: -10px;
+}
+
+.welcome .avatar {
+  width: 64px;
+  height: 64px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 2px;
+  box-shadow: 0 0 5px #ddd;
+  margin-left: 20px;
+  /* margin top is half the height */
+  margin-top: -32px;
+  background-color: #fff;
+}
+
+.welcome .body {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.welcome .body > div {
+  flex: 1;
+}
+
+.welcome .visit {
+  margin: 0 15px 15px auto ;
+  transition: 0.3s;
+}
+
+.welcome .visit:hover {
+  background-color: var(--blue-alt-color, #0d69d5);
+}
+
+@media (max-width: 767px) {
+  .welcome .intro {
+    padding-bottom: 30px;
+  }
+  .welcome .avatar {
+    margin-left: 0;
+  }
+  .welcome .body > div:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+/* End widget 1 - welcome */
