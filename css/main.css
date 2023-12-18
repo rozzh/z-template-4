@@ -487,7 +487,31 @@ ul {
   bottom: 0;
   opacity: 0.5;
 }
-/* Start widget 9 - Current Project Progress */
+/* End widget 9 - Current Project Progress */
+
+/* Start widget 10 - Reminders */
+.reminders ul li .key {
+  width: 15px;
+  height: 15px;
+}
+
+.reminders ul li > .blue {
+  border-left: 2px solid var(--blue-color, #0075ff);
+}
+
+.reminders ul li > .green {
+  border-left: 2px solid var(--green-color, #22c55e);
+}
+
+.reminders ul li > .orange {
+  border-left: 2px solid var(--orange-color, #f59e0b);
+}
+
+.reminders ul li > .red {
+  border-left: 2px solid var(--red-color, #f44336);
+}
+
+/* End widget 10 - Reminders */
 
 /* Start Animation */
 @keyframes change-color {
