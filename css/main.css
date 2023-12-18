@@ -448,3 +448,54 @@ ul {
   height: 40px;
 }
 /* End widget 8 - Latest Uploads */
+
+/* Start widget 9 - Current Project Progress */
+.current-project ul::before {
+  content: "";
+  position: absolute;
+  left: 11px;
+  width: 2px;
+  height: 100%;
+  background-color: var(--blue-color, #0075ff);
+}
+
+.current-project ul li::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #fff;
+  outline: 2px solid var(--blue-color, #0075ff);
+  margin-right: 15px;
+  z-index: 1;
+}
+
+.current-project ul li.complete::before {
+  background-color: var(--blue-color, #0075ff);
+}
+
+.current-project ul li.current::before {
+  animation: change-color 0.8s infinite alternate;
+}
+
+.current-project .launch-icon {
+  position: absolute;
+  width: 140px;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+}
+/* Start widget 9 - Current Project Progress */
+
+/* Start Animation */
+@keyframes change-color {
+  0% {
+  background-color: var(--blue-color, #0075ff);
+  }
+  100% {
+  background-color: #fff;
+  }
+}
+/* End Animation */
