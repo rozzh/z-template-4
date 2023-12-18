@@ -437,3 +437,14 @@ ul {
 
 /* Start widget 7 - Top Search Word */
 /* End widget 7 - Top Search Word */
+
+/* Start widget 8 - Latest Uploads */
+.latest-uploads ul li:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+
+.latest-uploads img {
+  width: 40px;
+  height: 40px;
+}
+/* End widget 8 - Latest Uploads */
