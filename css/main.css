@@ -403,3 +403,33 @@ ul {
   }
 }
 /* End widget 5 - Latest Newa */
+
+/* Start widget 6 - Tasks */
+.tasks .task-row:not(:last-of-type) {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.tasks .info {
+  flex-grow: 1;
+}
+
+.tasks .done {
+  opacity: 0.3;
+}
+
+.tasks .done h3,
+.tasks .done p {
+  text-decoration: line-through;
+}
+
+.tasks .delete-icon {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.tasks .delete-icon:hover {
+  color: var(--red-color, #f44336);
+}
+/* End widget 6 - Tasks */
