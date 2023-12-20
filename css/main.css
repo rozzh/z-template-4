@@ -650,6 +650,7 @@ ul {
 /* ___ Start Toggle Switch ___ */
 .toggle-checkbox {
   appearance: none;
+  display: none;
 }
 
 .toggle-sw {
@@ -697,6 +698,16 @@ ul {
   min-height: 150px;
 }
 /**** End setting box - Site Control ****/
+
+/**** Start setting box - General Info ****/
+.setting-page .email {
+  display: inline-flex;
+  width: calc(100% - 80px);
+}
+/**** End setting box - General Info ****/
+
+/**** Start setting box - Security Info ****/
+/**** End setting box - Security Info ****/
 
 /* End setting page */
 
