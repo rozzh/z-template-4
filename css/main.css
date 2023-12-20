@@ -707,8 +707,53 @@ ul {
 /**** End setting box - General Info ****/
 
 /**** Start setting box - Security Info ****/
+.setting-page .s-box {
+  padding-bottom: 15px;
+}
+
+.setting-page .s-box:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+}
+
+.setting-page .s-box .button {
+  transition: 0.3s;
+}
+
+.setting-page .s-box .button:hover {
+  background-color: var(--blue-alt-color, #0d69d5);
+}
 /**** End setting box - Security Info ****/
 
+/**** Start setting box - Social Info ****/
+.setting-page .social-boxes i {
+  width: 40px;
+  height: 40px;
+  background-color: #f6f6f6;
+  border: 1px solid #ddd;
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+  transition: 0.3s;
+}
+
+.setting-page .social-boxes input {
+  height: 40px;
+  background-color: #f6f6f6;
+  border: 1px solid #ddd;
+  padding-left: 10px;
+  border-radius: 0 6px 6px 0;
+}
+
+.setting-page .social-boxes > div:focus-within i {
+  color: #000;
+}
+/**** End setting box - Social Info ****/
+
+/* for all disabled */
+.setting-page :disabled {
+  cursor: no-drop;
+  background-color: #f0f4f8;
+  color: #bbb;
+}
 /* End setting page */
 
 /* Start Animation */
