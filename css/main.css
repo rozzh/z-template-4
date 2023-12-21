@@ -748,6 +748,61 @@ ul {
 }
 /**** End setting box - Social Info ****/
 
+/* Start setting box - Custom Checkbox */
+.widgets-control .control input[type="checkbox"] {
+  appearance: none;
+}
+
+.widgets-control .control label {
+  padding-left: 30px;
+  cursor: pointer;
+  position: relative;
+}
+
+.widgets-control .control label::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  border-radius: 4px;
+  width: 14px;
+  height: 14px;
+  border: 2px solid var(--grey-color, #888);
+  /* -9? check from the dev tools | 14px + 2px (top) + 2px (bottom) = 18 (/2 = 9) */
+  margin-top: -9px;
+}
+
+.widgets-control .control label:hover::before {
+  border-color: var(--blue-alt-color, #0d69d5);  
+}
+
+.widgets-control .control label::after {
+  font-family: var(--fa-style-family-classic);
+  content: "\f00c"; 
+  font-weight: 900;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  border-radius: 4px;
+  margin-top: -9px;
+  background-color: var(--blue-color, #0075ff);
+  color: #fff;
+  font-size: 12px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* disapper form the begining */
+  transform: scale(0) rotate(360deg);
+  transition: 0.3s;
+}
+
+.widgets-control .control input[type="checkbox"]:checked + label::after {
+  transform: scale(1);
+}
+/* End setting box - Custom Checkbox */
+
 /* for all disabled */
 .setting-page :disabled {
   cursor: no-drop;
