@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template Four - Profile</title>
+    <!-- Font Awesome Library 6.4.2 -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- Google Fonts (Light 300 - Medium 500) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Framework CSS File -->
+    <link rel="stylesheet" href="./css/framework.css" />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- Start page -->
+    <div class="page d-flex">
+      <!-- Page Sidebar -->
+      <aside class="sidebar bg-white p-20 p-relative">
+        <h3 class="p-relative txt-c mt-0 txt-capital">roza</h3>
+        <ul>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="./index.html"
+            >
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span class="txt-capital">dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="./settings.html"
+            >
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span class="txt-capital">settings</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="active d-flex align-center fs-14 c-black rad-6 p-10"
+              href="./profile.html"
+            >
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span class="txt-capital">profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="./projects.html"
+            >
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span class="txt-capital">projects</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="./courses.html"
+            >
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span class="txt-capital">courese</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="./friends.html"
+            >
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span class="txt-capital">friends</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="./files.html"
+            >
+              <i class="fa-regular fa-file fa-fw"></i>
+              <span class="txt-capital">files</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="./plans.html"
+            >
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span class="txt-capital">plans</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+
+      <!-- Page Content -->
+      <div class="content w-full">
+        <!-- Start Head -->
+        <div class="head bg-white between-flex p-15">
+          <!-- Left Column - search  -->
+          <div class="search p-relative">
+            <input class="p-10" type="search" placeholder="Type A Keyword" />
+          </div>
+
+          <!-- Right Column - icon and avatar -->
+          <div class="icons d-flex align-center">
+            <span class="notification p-relative">
+              <i class="fa-regular fa-bell fa-lg"></i>
+            </span>
+            <img src="./img/avatar.png" alt="" />
+          </div>
+        </div>
+        <!-- End Head -->
+
+        <!-- Heading -->
+        <h1 class="p-relative txt-capital">profile</h1>
+        <!-- Start Profile page -->
+        <div class="profile-page m-20">
+          <!-- Start Profile - Overview -->
+          <div class="overview bg-white rad-10 d-flex align-center">
+            <!-- Start Overview box 1 - Avatar box -->
+            <div class="avatar-box txt-capital txt-c p-20">
+              <img class="rad-half mb-10" src="./img/avatar.png" alt="user">
+              <h3 class="m-0">ali roza</h3>
+              <p class="c-grey mt-10">level 16</p>
+
+              <!-- progress level -->
+              <div class="level rad-6 bg-eee p-relative">
+                <span style="width: 75%;"></span>
+              </div>
+
+              <!-- rating -->
+              <div class="rating mt-10 mb-10">
+                <i class="fa-solid fa-star c-orange fs-13"></i>
+                <i class="fa-solid fa-star c-orange fs-13"></i>
+                <i class="fa-solid fa-star c-orange fs-13"></i>
+                <i class="fa-solid fa-star c-orange fs-13"></i>
+                <i class="fa-regular fa-star c-orange fs-13"></i>
+              </div>
+              <p class="c-grey m-0 fs-13">550 rating</p>
+            </div>
+            <!-- End Overview box 1 - Avatar box -->
+
+            <!-- Start Overview box 2 - Info box -->
+            <div class="info-box txt-capital w-full txt-c-mobile">
+              <!-- info row 1 -->
+              <div class="row p-20 d-flex align-center">
+                <h4 class="c-grey fs-15 m-0 w-full">general information</h4>
+
+                <div class="fs-14">
+                  <span class="c-grey">full name</span>
+                  <span>ali mohammed roza</span>
+                </div>
+
+                <div class="fs-14">
+                  <span class="c-grey">gender:</span>
+                  <span>male</span>
+                </div>
+
+                <div class="fs-14">
+                  <span class="c-grey">country:</span>
+                  <span>egypt</span>
+                </div>
+
+                <div class="fs-14">
+                  <label>
+                    <input class="toggle-checkbox" type="checkbox" checked />
+                    <div class="toggle-sw"></div>
+                  </label>
+                </div>
+              </div>
+
+              <!-- info row 2 -->
+              <div class="row p-20 d-flex align-center">
+                <h4 class="c-grey fs-15 m-0 w-full">personal information</h4>
+
+                <div class="fs-14">
+                  <span class="c-grey">email:</span>
+                  <span>ali@gmail.com</span>
+                </div>
+
+                <div class="fs-14">
+                  <span class="c-grey">phone:</span>
+                  <span>019123457796</span>
+                </div>
+
+                <div class="fs-14">
+                  <span class="c-grey">date of birth:</span>
+                  <span>21/01/1990</span>
+                </div>
+
+                <div class="fs-14">
+                  <label>
+                    <input class="toggle-checkbox" type="checkbox" />
+                    <div class="toggle-sw"></div>
+                  </label>
+                </div>
+              </div>
+
+              <!-- info row 3 -->
+              <div class="row p-20 d-flex align-center">
+                <h4 class="c-grey fs-15 m-0 w-full">job information</h4>
+
+                <div class="fs-14">
+                  <span class="c-grey">title:</span>
+                  <span>full stack developer</span>
+                </div>
+
+                <div class="fs-14">
+                  <span class="c-grey">programming language:</span>
+                  <span>python</span>
+                </div>
+
+                <div class="fs-14">
+                  <span class="c-grey">years of experience:</span>
+                  <span>15+</span>
+                </div>
+
+                <div class="fs-14">
+                  <label>
+                    <input class="toggle-checkbox" type="checkbox" checked />
+                    <div class="toggle-sw"></div>
+                  </label>
+                </div>
+              </div>
+
+              <!-- info row 4 -->
+              <div class="row p-20 d-flex align-center">
+                <h4 class="c-grey fs-15 m-0 w-full">billing information</h4>
+
+                <div class="fs-14">
+                  <span class="c-grey">payment method:</span>
+                  <span>paypal</span>
+                </div>
+
+                <div class="fs-14">
+                  <span class="c-grey">email:</span>
+                  <span>roza@outlook.com</span>
+                </div>
+
+                <div class="fs-14">
+                  <span class="c-grey">subscription:</span>
+                  <span>monthly</span>
+                </div>
+
+                <div class="fs-14">
+                  <label>
+                    <input class="toggle-checkbox" type="checkbox" />
+                    <div class="toggle-sw"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <!-- End Overview box 2 - Info box -->
+          </div>
+          <!-- End Profile - Overview -->
+
+        </div>
+        <!-- End Profile page -->
+      </div>
+    </div>
+    <!-- End page -->
+  </body>
+</html>
